@@ -1,0 +1,33 @@
+body{
+	background-color: #5b7989;
+	font-family: 'Dancing Script', cursive;
+	width: 90%;
+	font-size: 31px;
+	padding: 2px;
+	margin: 10px;
+	text-align: center;
+	border-radius-left:10px;
+	border-radius-top:10px;
+
+}
+
+ #cabecera h1{
+	color: white;
+	text-align: left;
+	text-shadow:2px 2px 2px #02010a;
+}
+
+a{
+	color: white
+
+}
+a:hover{
+	color: black;;
+		text-decoration: none;
+
+}
+nav{
+	text-align: right;
+	margin: 2px;
+	padding: 2px;
+	border-radius: 2px;
