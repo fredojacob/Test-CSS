@@ -1,0 +1,226 @@
+
+body{
+	background-color: #02010a;
+	font-family: 'Dancing Script', cursive;
+	width: 97.5%;
+	font-size: 31px;
+	padding: 10px;
+	margin: 15px;
+	text-align: center;
+	border-radius-left:10px;
+	border-radius-top:10px;
+
+}
+div .contenido{
+	margin: 20px;
+}
+head{
+	color: white;
+	background-color: #5b7989; 
+
+}
+
+h1{
+	color: white;
+	text-shadow:2px 2px 2px #02010a;
+	background-color: #5b7989;
+	text-align: left;
+}
+
+#cabecera{
+	color: #ffffff;
+	background-color: #5b7989;
+	border-radius: 10px 10px 0 0;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 25px; 
+}
+#cabecera h1{
+	color: white;
+	text-shadow:2px 2px 2px #02010a;
+	width: 90%;
+	background-color: #5b7989;
+	text-align: bottom-center;
+}
+#cabecera nav {
+	
+}
+
+a{
+	color: white;
+
+}
+a:hover{
+	color: black;;
+}
+nav{
+	text-align: right;
+	margin: 2px;
+	padding: 2px;
+	border-radius: 2px;
+	width: 100%
+}
+ul {
+	text-align: right;
+	font-size: 1em;
+}
+ul li {
+	display: inline;
+	padding: 2%;
+}
+ul li a {
+	color: #ffffff;
+}
+
+
+/* aqui empesari el CSS de el contenido y los seccion*/ 
+
+
+.contenedor{
+	background-color: #d5c75f;
+	margin: 0 auto;
+ 	width: 100%;
+ 	display: flex;
+ 	flex-direction: column;
+	flex-flow: row wrap;
+	margin: 50px;
+	
+}
+img{
+	width: 300px;
+	margin: 10px;
+	border: solid;
+	border-color: black;
+}
+img:hover{
+	border-color: yellow;
+	float: center
+	animation: translate(5px 0px 20px); 
+}
+#transformado:hover {
+  transform: translateX(25px);
+
+
+}
+
+
+#contenido{
+
+	display: flex;
+	flex-direction: column;
+	background-color: #82c3a6;
+	width: 100%;
+}
+
+#contenedor {
+	border: solid;
+	border: 2px;
+	background-color: #d5c75f;
+	display: flex;
+	flex-flow: row wrap;
+
+
+}
+#contenedor #imagen2{
+	padding-left: 10px;
+}
+#contenedor #imagen3{
+	padding-left: 200px;
+}
+footer {
+	background-color: #C6d5c5;
+	border-radius: 0 0 10px 10px;
+	display: flex;
+	flex-flow: row wrap;
+	font-size: 35px;
+	padding-left: 175px;
+}
+.footerbox img{
+		width: 30px;
+		height: 30px;
+}
+.footerbox span{
+	font-size: 10px;
+}
+
+
+/* query */
+@media (max-width: 900px) {
+.contenido {
+	width: 100%;
+}
+header {
+	min-height: 200px;
+}
+header h1 {
+	width: 100%;
+	text-align: center;
+}
+#navprincipal {
+	width: 100%;
+}
+ul {
+	text-align: center;
+}
+footer {
+	width: 73.5%;
+	min-height: 50px;
+	padding-left: 165.8px;
+}
+.footerbox {
+	width: 300px;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+@media(min-width: 360){
+	footer{
+		width: 94.5px;
+	}
+}
+
+@media (min-width: 900px) {
+.contenido {
+	width: 900px;
+}
+header {
+	width: 900px;
+	min-height: 80px;
+}
+footer {
+	width: 79.1%;
+	min-height: 50px;
+}
+.footerbox {
+	width: 20%;
+	height: auto;
+	padding: 1%2.5% 1% 2.5%;
+}
+	
+}
+
+div .footerbox{
+	padding: 20px;
+	margin: 20px;
+}
+#imginferior{
+	width: 121%;
+}
+#imgcentral{
+	width: 121%;
+}
+#cabecera{
+	width: 111%;
+}
+#contenedor #imagen3{
+		padding-left: 0px;
+
+	
+}
+#imagen1{
+	width: 100%;
+}
+
+/*prueba*/
+
+
