@@ -1,3 +1,19 @@
+/* ESTA ANIMACION es la ultima indicacion del examen 
+cuya funcion es que al ingresar ala pagina 
+realizar un salto depende el porcentaje de pantalla indicado
+*/
+
+@-webkit-keyframes slide{
+  0%{
+    margin-top: 150%;
+  }60%{
+    margin-top: -5%;
+  }100%{
+    margin-top: 0%;
+  }
+}
+
+
 
 body{
 	background-color: #02010a;
@@ -25,6 +41,9 @@ h1{
 	text-shadow:2px 2px 2px #02010a;
 	background-color: #5b7989;
 	text-align: left;
+}
+#contenidoo{
+-webkit-animation: slide 2s forwards;
 }
 
 #cabecera{
@@ -108,7 +127,12 @@ img:hover{
 	 
 }
 
+/*
+se aplican efecto a los elementos que tengan
+la clase transformado cuando se coloque el mouse 
+en la imagen o el elemento.
 
+*/
 #transformado:hover {
   transform: rotate(10deg);
   border-shadow: #82c3a6;
@@ -163,7 +187,10 @@ footer {
 	font-size: 10px;
 	margin-right: 20px;
 }
-
+/*
+se aplica diseno responsivo paraque se visualice
+mejor en varios dispositivos mobiles
+*/
 
 
 /* query */
@@ -209,6 +236,11 @@ div .footerbox{
 #cabecera{
 	width: 111%;
 }
+
+/*
+se aplica diseno responsivo paraque se visualice
+mejor en varios dispositivos mobiles
+*/
 
 @media (min-width: 900px) {
 .contenido {

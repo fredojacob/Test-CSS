@@ -71,6 +71,8 @@ ul li {
 ul li a {
 	color: #ffffff;
 }
+/*son clases que crearon para agregar atributos de efecto a las imagenes*/
+
 
 .imagen9{
 	filter: blur(10px);
