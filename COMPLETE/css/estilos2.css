@@ -1,0 +1,281 @@
+
+body{
+	background-color: #02010a;
+	font-family: 'Dancing Script', cursive;
+	width: 97.5%;
+	font-size: 31px;
+	padding: 10px;
+	margin: 15px;
+	text-align: center;
+	border-radius-left:10px;
+	border-radius-top:10px;
+
+}
+div .contenido{
+	margin: 20px;
+}
+head{
+	color: white;
+	background-color: #5b7989; 
+
+}
+
+h1{
+	color: white;
+	text-shadow:2px 2px 2px #02010a;
+	background-color: #5b7989;
+	text-align: left;
+}
+
+#cabecera{
+	color: #ffffff;
+	background-color: #5b7989;
+	border-radius: 10px 10px 0 0;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 25px; 
+}
+#cabecera h1{
+	color: white;
+	text-shadow:2px 2px 2px #02010a;
+	width: 90%;
+	background-color: #5b7989;
+	text-align: bottom-center;
+}
+#cabecera nav {
+	
+}
+
+a{
+	color: white;
+
+}
+a:hover{
+	color: black;;
+}
+nav{
+	text-align: right;
+	margin: 2px;
+	padding: 2px;
+	border-radius: 2px;
+	width: 100%
+}
+ul {
+	text-align: right;
+	font-size: 1em;
+}
+ul li {
+	display: inline;
+	padding: 2%;
+}
+ul li a {
+	color: #ffffff;
+}
+
+.imagen9{
+	filter: blur(10px);
+}
+.imagen10{
+	filter: grayscale(100%);
+}
+.imagen11{
+	filter: sepia(100%);
+}
+
+/* aqui empesari el CSS de el contenido y los seccion*/ 
+
+
+
+img{
+	width: 300px;
+	margin: 10px;
+	border: solid;
+	border-color: black;
+}
+img:hover{
+	border-color: yellow;
+	float: center
+	 
+}
+#transformado:hover {
+  transform: rotate(25deg);
+}
+#contenido1{
+	padding-left: 94px;
+	display: flex;
+	flex-direction: row;
+	background-color: #82c3a6;
+	width: 94.2%;
+}
+#contenido{
+	padding-left: 94px;
+	display: flex;
+	flex-direction: row;
+	background-color: #82c3a6;
+	width: 93.2%;
+}
+
+footer {
+	background-color: #C6d5c5;
+	border-radius: 0 0 10px 10px;
+	display: flex;
+	flex-flow: row wrap;
+	font-size: 25px;
+	padding-left: 175px;
+}
+footer .caja{
+	display: flex;
+	flex-flow: row wrap;
+	padding-left: 85px;
+
+
+}
+.footerbox img{
+		width: 30px;
+		height: 30px;
+}
+.footerbox span{
+	font-size: 10px;
+	margin-right: 20px;
+}
+#imgcentral .caja2{
+	padding-right: 15px;
+
+
+}
+
+
+
+/* query */
+@media (max-width: 900px) {
+.contenido {
+	width: 100%;
+}
+header {
+	min-height: 200px;
+}
+header h1 {
+	width: 100%;
+	text-align: center;
+}
+#navprincipal {
+	width: 100%;
+}
+ul {
+	text-align: center;
+}
+footer {
+	width: 311%;
+	min-height: 50px;
+	padding-left: 165.8px;
+}
+.footerbox {
+	width: 300px;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+div .footerbox{
+	padding: 20px;
+	margin: 20px;
+	border: 2px;
+}
+#imginferior{
+	width: 114.7%;
+}
+#imgcentral{
+	width: 114.7%;
+}
+#cabecera{
+	width: 111%;
+}
+
+@media (min-width: 900px) {
+.contenido {
+	width: 900px;
+}
+header {
+	width: 900px;
+	min-height: 80px;
+}
+footer {
+	width: 79.1%;
+	min-height: 50px;
+}
+.footerbox {
+	width: 20%;
+	height: auto;
+	padding: 1%2.5% 1% 2.5%;
+	display: flex;
+	flex-flow: row wrap;
+}
+	
+}
+
+div .footerbox{
+	padding: 20px;
+	margin: 20px;
+	border: 2px;
+}
+#imginferior{
+	width: 358.5%;
+}
+#imgcentral{
+	width: 358.5%;
+}
+#cabecera{
+	width: 355.5%;
+}
+#contenedor #imagen3{
+		padding-left: 0px;
+}
+@media(min-width: 600px){
+.contenido {
+	width: 100%;
+}
+header {
+	min-height: 200px;
+}
+header h1 {
+	width: 100%;
+	text-align: center;
+}
+#navprincipal {
+	width: 100%;
+}
+ul {
+	text-align: center;
+}
+footer {
+	width: 171.8%;
+	min-height: 50px;
+	padding-left: 165.8px;
+}
+.footerbox {
+	width: 300px;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+div .footerbox{
+	padding: 20px;
+	margin: 20px;
+	border: 2px;
+}
+#imginferior{
+	width: 200%;
+}
+#imgcentral{
+	width: 200%;
+}
+#cabecera{
+	width: 193.7%;
+}
+
+.footerbox img{
+	width: 35%;
+}
+
+#contenido, img, #imagen1 {
+   filter: blur(5px);
+}
